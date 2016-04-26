@@ -1,0 +1,22 @@
+.body {
+    font-family: PT Sans Narrow;
+    font-size: 14 px;
+     color: #000000;
+    font-weight: none;
+    line-height: 42px;
+}
+
+h1 {
+    font-family:  PT Sans Narrow;
+    font-size: 30px;
+    color:  #000000;
+}
+h2 {
+    font-family: PT Sans Narrow;
+    font-size: 24 px;
+     color: #000000;
+    font-weight: none;
+    line-height: 30px;
+}
+
+
