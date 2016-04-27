@@ -1,21 +1,21 @@
-.body {
-    font-family: PT Sans Narrow;
-    font-size: 14 px;
+body {
+    font-family: PT Sans Narrow, Arial, sans-serif;
+    font-size: 14px;
      color: #000000;
-    font-weight: none;
-    line-height: 42px;
+    font-weight: normal;
+    
 }
 
 h1 {
-    font-family:  PT Sans Narrow;
+    font-family:  PT Sans Narrow, Arial, sans-serif;
     font-size: 30px;
     color:  #000000;
 }
 h2 {
-    font-family: PT Sans Narrow;
-    font-size: 24 px;
+    font-family: PT Sans Narrow,  Arial, sans-serif;
+    font-size: 24px;
      color: #000000;
-    font-weight: none;
+    font-weight: normal;
     line-height: 30px;
 }
 
