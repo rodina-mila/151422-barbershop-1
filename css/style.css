@@ -33,12 +33,59 @@ h2 {
     float: left;
 }
 .user-block{
-     min-height:  70px;
+     min-height: 70px;
      width: 140px;
     float: right;
 }
-.clearfix:after{
-    content:'';
+.clearfix::after{
+    content:" ";
     display:table;
     clear:both;
+}
+.catalogue{
+ margin-bottom: 60px;
+}
+.index-content-left{
+  float: left;
+  width: 460px;
+        
+}
+.index-content-right{
+     float: right;
+     width: 3900px;
+    
+}
+.index-content-left-a{
+  float: left;
+  width: 220px;  
+}
+.index-content-left-b{
+    float: right;
+  width: 720px;
+}
+.main-footer {
+  margin-top: 65px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.footer-contacts {
+  float: left;
+  width: 320px;
+  margin-right: 60px;
+
+ 
+}
+
+.footer-social {
+  float: left;
+  width: 180px;
+
+}
+
+.footer-copyright {
+  float: right;
+  width: 180px;
+
+ 
 }
