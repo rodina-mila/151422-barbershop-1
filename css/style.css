@@ -55,12 +55,13 @@ h2 {
      width: 3900px;
     
 }
+
 .index-content-left-a{
   float: left;
   width: 220px;  
 }
 .index-content-left-b{
-    float: right;
+float: right;
   width: 720px;
 }
 .main-footer {
