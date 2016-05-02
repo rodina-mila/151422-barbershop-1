@@ -22,71 +22,86 @@ h2 {
 .container{
     width: 940px;
     padding: 0 10px;
-    margin: 0 auto
+    margin: 0 auto;
+    background-color: azure;
     }
 .main-header {
   margin-bottom: 60px;
+    background-color: aquamarine;
 }
 .main-navigation{
   min-height:  70px; 
    width: 780px;
     float: left;
+    background-color: burlywood;
 }
 .user-block{
      min-height: 70px;
      width: 140px;
     float: right;
+    background-color: chartreuse;
 }
 .clearfix::after{
-    content:" ";
+    content:"";
     display:table;
     clear:both;
+    background-color: bisque;
 }
 .catalogue{
  margin-bottom: 60px;
+    background-color: cornflowerblue;
+}
+.index{
+    padding: 10px 10px;
+     margin-bottom: 45px;
+    background-color: red;
 }
 .index-content-left{
   float: left;
   width: 460px;
+ background-color: deeppink;
         
 }
 .index-content-right{
      float: right;
-     width: 3900px;
-    
+     width: 390px;
+    background-color: deepskyblue;
 }
 
 .index-content-left-a{
   float: left;
   width: 220px;  
+    background-color: red;
 }
 .index-content-left-b{
 float: right;
   width: 720px;
+    background-color: greenyellow;
 }
 .main-footer {
-  margin-top: 65px;
+    margin-top: 65px;
   padding-top: 60px;
   padding-bottom: 40px;
+    background-color: coral;
 }
 
 .footer-contacts {
   float: left;
   width: 320px;
   margin-right: 60px;
-
+background-color: aquamarine;
  
 }
 
 .footer-social {
   float: left;
   width: 180px;
-
+background-color: darkgoldenrod;
 }
 
 .footer-copyright {
   float: right;
   width: 180px;
-
+background-color: darkorange;
  
 }
