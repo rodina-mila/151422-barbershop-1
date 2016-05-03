@@ -75,15 +75,17 @@ figure{
 .gallery-content{
     margin-bottom: 50px;
 }
+.previews { 
+    font-size: 0; 
+}
 .previews img{
     display: inline-block;
     margin-right: 20px;
-    font-size: 0;
-}
+    }
 .previews img:last-child{
 margin-right:0; 
 }  
-choice-pictures{
+.choice-pictures{
     padding: 10px 10px;
      margin-bottom: 45px;
     background-color: red; 
