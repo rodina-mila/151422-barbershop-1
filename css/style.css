@@ -3,7 +3,8 @@ body {
     font-size: 14px;
      color: #000000;
     font-weight: normal;
-    
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
@@ -17,6 +18,10 @@ h2 {
      color: #000000;
     font-weight: normal;
     line-height: 30px;
+}
+figure{
+      margin: 0;
+    padding: 0;
 }
 
 .container{
@@ -58,7 +63,7 @@ h2 {
 }
 .index-content-left{
   float: left;
-  width: 460px;
+  width: 470px;
  background-color: deeppink;
         
 }
@@ -67,16 +72,44 @@ h2 {
      width: 390px;
     background-color: deepskyblue;
 }
-
-.index-content-left-a{
+.gallery-content{
+    margin-bottom: 50px;
+}
+.previews img{
+    display: inline-block;
+    margin-right: 20px;
+}
+.previews img:last-child{
+margin-right:0; 
+}  
+choice-pictures{
+    padding: 10px 10px;
+     margin-bottom: 45px;
+    background-color: red; 
+}
+.index-content-left-choice{
   float: left;
-  width: 220px;  
+  width: 195px;  
     background-color: red;
 }
-.index-content-left-b{
+.index-content-right-picture{
 float: right;
-  width: 720px;
+  width: 710px;
     background-color: greenyellow;
+}
+.product-cards{
+    width: 710px;
+}
+.product-card{
+     display: inline-block;
+     margin-right:20px;
+    width:220px;
+    margin-bottom:20px;
+    text-align:left;
+    vertical-align:top; 
+}
+.product-card:nth-child(3n){
+margin-right:0;
 }
 .main-footer {
     margin-top: 65px;
